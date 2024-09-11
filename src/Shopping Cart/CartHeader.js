@@ -19,7 +19,7 @@ const CartHeader = () => {
       <Navbar bg='dark' className='sticky-header ' >
          <Container style={{boxShadow:"none", width:"100%", border:"none"}}>
             <Navbar.Brand style={{color:'white'}}>
-              <Link to="/"> 
+              <Link to="/react-cart"> 
                 <b>Store</b>
               </Link>
             </Navbar.Brand>
