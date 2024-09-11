@@ -48,6 +48,8 @@
     display: flex;
     flex-direction: column;
     background-color: #343a40;
+    position: sticky;
+    top: 7vh;
     color: white;
     padding: 1.25rem;
     width: 22%;
@@ -101,6 +103,9 @@
 }
 
 @media (max-width: 771px){
+    html{
+        font-size: 12px;
+    }
     .filters{
         width: 20%;
         padding: 0.625rem;
@@ -108,7 +113,7 @@
     }
 
     .filters > span{
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
 
     .title{
@@ -126,38 +131,35 @@
 
 @media (max-width: 650px){
     html{
-        font-size: 9.8px;
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 528px){
+    html{
+        font-size: 11px;
     }
     .filters{
-        width: 20%;
-        padding: 0.625rem;
-        margin: 0.3125rem;
+        width: 24%;
     }
-
-    .filters > span{
-        font-size: 0.93rem;
+    .products{
+        width: 43%;
     }
 }
 
 @media (max-width: 470px){
     html{
-        font-size: 9px;
-    }
-
-    .filters{
-        width: 20%;
-        padding: 0.625rem;
-        margin: 0.3125rem;
+        font-size: 10px;
     }
 
     .filters > span{
-        font-size: 0.89rem;
+        font-size: 1.15rem;
     }
 }
 
 @media (max-width: 430px){
     html{
-        font-size: 10px;
+        font-size: 9px;
     }
 
     .Home{
@@ -167,12 +169,8 @@
     .filters{
         display: block;
         height: max-content;
-        position: sticky;
-        top: 5vh;
         z-index: 2;
         width: 100%;
-        padding: 0.625rem;
-        margin: 0.3125rem;
     }
 
     .filters .title{
@@ -184,7 +182,7 @@
     }
 
     .filters > span:not(.title){
-        font-size: 1.17rem;
+        font-size: 1.25rem;
     }
 
     .productsContainer{
@@ -198,7 +196,7 @@
     }
 
     .filters > span > .form-check-inline:not(.title){
-        font-size: 1.17rem;
+        font-size: 1.23rem;
         padding-bottom: .6rem;
     }
 

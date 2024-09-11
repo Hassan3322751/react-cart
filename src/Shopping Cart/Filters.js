@@ -9,6 +9,7 @@ const Filters = () => {
 
   return (
     <div className='filters'>
+
         <span className='title'>Filter Products</span>
         <span>
             <Form.Check
@@ -93,7 +94,7 @@ const Filters = () => {
         }>
             Clear Filters
         </Button>
-    </div>
+   </div>
   )
 }
 
