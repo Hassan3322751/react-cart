@@ -13,7 +13,7 @@ function App() {
        <CartApplication />
           <div className='bodyContent'>
         <Routes>
-            <Route path="/" element={<Home />}/>
+            <Route path="/react-cart" element={<Home />}/>
             <Route path="/cart" element={<Cart />}/>
         </Routes>
           </div>
